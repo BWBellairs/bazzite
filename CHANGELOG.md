@@ -1,5 +1,21 @@
 # Changelog
 
+## [3.1.0](https://github.com/ublue-os/bazzite/compare/v3.0.0...v3.1.0) (2024-04-27)
+
+
+### Features
+
+* Add `ujust setup-luks-tpm-unlock` ([5402f53](https://github.com/ublue-os/bazzite/commit/5402f530ef2cfe9403fc0baee79c664699a811d2))
+* Deprecate looking-glass shm in favor of kvmfr module ([#1013](https://github.com/ublue-os/bazzite/issues/1013)) ([8f7bb0b](https://github.com/ublue-os/bazzite/commit/8f7bb0bd6854c1d6a67f30903161a5f870c9e3d0))
+
+
+### Bug Fixes
+
+* bazzite-user-setup should only run when needed ([#1020](https://github.com/ublue-os/bazzite/issues/1020)) ([f33d1e7](https://github.com/ublue-os/bazzite/commit/f33d1e799a090693c3adb3bbbdf2577975515fb2))
+* **bazzite-user-setup:** include  in file check and move  after first if statement ([#1023](https://github.com/ublue-os/bazzite/issues/1023)) ([c4670d2](https://github.com/ublue-os/bazzite/commit/c4670d271d3b97740b6b6ffdb128e9f8668661a4))
+* **ci:** set image version to match source ([#1031](https://github.com/ublue-os/bazzite/issues/1031)) ([57b0d1f](https://github.com/ublue-os/bazzite/commit/57b0d1f2461b402bba106d153bc397c77bd7b060))
+* Correct issue with Steam refusing to launch on some multi-gpu hardware when launched on the dGPU. ([0c1a55c](https://github.com/ublue-os/bazzite/commit/0c1a55c629c3a12bd42818f3a487f897a9d6115f))
+
 ## [3.0.0](https://github.com/ublue-os/bazzite/compare/v2.5.0...v3.0.0) (2024-04-24)
 
 
