@@ -497,7 +497,7 @@ RUN if grep -q "kinoite" <<< "${BASE_IMAGE_NAME}"; then \
         --from repo=copr:copr.fedorainfracloud.org:kylegospo:bazzite \
             gnome-shell && \
         rpm-ostree override replace \
-        --experimenta \
+        --experimental \
         --from repo=copr:copr.fedorainfracloud.org:taaem:mutter-xwayland-fractional-scaling \
             mutter \
             mutter-common \
